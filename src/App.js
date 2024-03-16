@@ -191,8 +191,7 @@ class App extends Component {
               <Route path ='react_quiz' element={<Outlet/>}>
               <Route index element= {<QuizReact />} />
               </Route>
-              <Route path="/not-found" element={<NotFound />} />
-              <Route path="*" element={<Navigate to="/not-found" />} />
+            
         </Routes>
       </BrowserRouter>
     );
