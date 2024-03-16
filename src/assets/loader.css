@@ -1,0 +1,135 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-item {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Простой CSS индикатор загрузки */
+.loading-item .spinner-1 {
+  border: 8px solid #3498db;
+  border-top: 8px solid transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+/* Анимация загрузки, созданная на чистом CSS */
+.loading-item .spinner-2 {
+  border: 8px solid #e74c3c;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+/* Пиксельная круговая анимация загрузки */
+.loading-item .spinner-3 {
+  background-color: #27ae60;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: pixel-spin 1s linear infinite;
+}
+
+/* Красивый эффект CSS спиннера анимации загрузки */
+.loading-item .spinner-4 {
+  border: 4px solid #f39c12;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+/* Повторяющийся спиннер с красивой анимацией */
+.loading-item .spinner-5 {
+  border: 4px solid #3498db;
+  border-top: 4px solid transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin-reverse 1s linear infinite;
+}
+
+/* Спинннер с дисками, вращающимися с разной скоростью */
+.loading-item .spinner-6 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.loading-item .spinner-6 .disk {
+  position: absolute;
+  border: 4px solid #9b59b6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 2s linear infinite;
+}
+
+.loading-item .spinner-6 .disk-2 {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pixel-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@keyframes spin-reverse {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+
+ .AdditionalSpinners.css
+.loading-text-spinner {
+  font-size: 16px;
+  color: #3498db;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.loading-text-spinner:after {
+  content: "Loading...";
+  animation: loadingText 3s infinite;
+}
+
+@keyframes loadingText {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.leaky-preloader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  border-top: 4px solid transparent;
+  animation: spin 1s linear infinite, changeColor 3s infinite;
+}
+
+@keyframes changeColor {
+  0% { border-color: #3498db; }
+  50% { border-color: #e74c3c; }
+  100% { border-color: #3498db; }
+}

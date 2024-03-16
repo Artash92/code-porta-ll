@@ -1,0 +1,102 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 160px;
+    
+  }
+  
+  .language-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .score-section {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+/* Стили для кнопок в онлайн квизе */
+.answer-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5DADE2; /* Приглушенный голубоватый оттенок */
+  border: 1px solid #5DADE2; /* Цвет границы */
+  border-radius: 5px; /* Радиус закругления углов */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.answer-button:hover {
+  background-color: #4A90E2; /* Приглушенный цвет фона при наведении */
+}
+
+
+
+
+
+
+.quiz-description {
+  font-size: 15px; /* Устанавливаем размер шрифта на 15px */
+  margin-top: 50px; /* Добавляем отступ сверху на 20px */
+}
+
+/* При необходимости можно также уменьшить размер шрифта и добавить отступ для других элементов внутри .quiz-description */
+.quiz-intro,
+.quiz-subheading,
+.quiz-list,
+.quiz-list-item,
+.quiz-note,
+.quiz-outro {
+  font-size: 15px; /* Устанавливаем размер шрифта на 15px */
+  margin-top: 15px; /* Добавляем отступ сверху на 15px */
+}
+
+
+
+
+  /*  media  */
+
+  @media only screen and (max-width: 800px) {
+    .quiz-container {
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 130px;
+    }
+    
+    .answer-button {
+    width: 100%;
+    }
+    }

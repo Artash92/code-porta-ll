@@ -1,0 +1,36 @@
+/* styles.css */
+
+.bg-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Смените на желаемый цвет фона */
+}
+
+.err404 {
+  font-size: 6rem;
+  color: #333; /* Цвет номера ошибки */
+}
+
+.not-found {
+  font-size: 2rem;
+  color: #555; /* Цвет текста "PAGE NOT FOUND" */
+}
+
+.not-found-btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #007bff; /* Цвет кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.not-found-btn:hover {
+  background-color: #0056b3; /* Цвет кнопки при наведении */
+}

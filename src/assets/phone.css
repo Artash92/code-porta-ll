@@ -1,0 +1,230 @@
+
+:root {
+  --phone-height: 400px; /* Уменьшаем высоту телефона */
+  --screen-height: calc(var(--phone-height) - 100px);
+}
+
+.java-scr {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.smart1 {
+  margin: 150px;
+  border: 2px solid #ddd;
+  border-radius: 40px;
+  background-color: #333;
+  width: 210px;
+  height: var(--phone-height);
+  padding: 60px 16px;
+  position: relative;
+}
+
+#acenzione-button1,
+#volume-su1,
+#volume-giu1 {
+  background-color: #333;
+  height: 20px;
+  left: -5px;
+  top: 59px;
+  border-radius: 4px 0 0 4px;
+  width: 3px;
+  background: #333;
+  position: absolute;
+}
+
+#volume-su1,
+#volume-giu1 {
+  height: 40px;
+  width: 3px;
+  left: -7px;
+}
+
+#volume-su1 {
+  top: 110px;
+}
+
+#volume-giu1 {
+  top: 155px;
+}
+
+#dettaglio1 {
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 100%;
+}
+
+#fotocamera1,
+#sensore1,
+#microfono1 {
+  background: #111;
+  height: 7px;
+  width: 7px;
+  border-radius: 100px;
+  display: block;
+}
+
+#sensore1 {
+  margin: 12px 100px;
+}
+
+#microfono1 {
+  height: 7px;
+  width: 90px;
+  margin: -19px auto 0;
+}
+
+#schermo1 {
+  height: var(--screen-height);
+  width: 170px;
+  background-color: #fff;
+  box-shadow: none; /* Убираем тень */
+  overflow: hidden;
+  position: relative;
+}
+
+#bottone1 {
+  height: 35px;
+  width: 35px;
+  background: #111;
+  margin: 0 auto;
+  border-radius: 90px;
+}
+
+.frame-posizione1 {
+  margin-left: 0px;
+  margin-right: -1px;
+  display: block;
+}
+
+#header1 {
+  background: #555;
+  box-shadow: 1px 2px 7px #333;
+}
+
+.wrap1 {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+#menu1 {
+  position: relative;
+  height: 60px;
+}
+
+#menu1 ul {
+  list-style: none;
+}
+
+#menu1 ul li {
+  float: left;
+  padding: 3px;
+}
+
+#menu1 ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#menu1 ul li a:hover {
+  background: #444;
+  transition-property: background-color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  color: #FFF;
+}
+
+.three-lines-menu1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  display: none;
+}
+
+#code-text1 {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.codee1 {
+  text-align: left;
+  white-space: pre-line;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: auto; /* Добавляем полосы прокрутки, если код выходит за пределы */
+  max-height: 400px; /* Устанавливаем максимальную высоту блока кода */
+  overflow-x: auto; /* Добавляем горизонтальную полосу прокрутки, если код выходит за пределы по горизонтали */
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .smart1 {
+    margin-left: 0; /* Перемещаем телефон влево */
+  }
+}
+
+
+.code-viewer {
+  position: absolute;
+  top: 170px;
+  right: 240px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .code-viewer {
+    top: 250px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .code-viewer {
+    position: static;
+    margin-top: -160px;
+    text-align: left; /* для более удобного чтения кода при уменьшении экрана */
+  }
+}  
+
+
+@media (max-width: 1368px) {
+  .code-viewer {
+    top: 250px;
+    right: 20px;
+    position: static;
+    margin-top: -70px;
+    text-align: left;
+  }
+
+  .smart1 {
+    margin-left: 0;
+  }
+}
