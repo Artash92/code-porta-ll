@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/code-portall/static/css/main.f9204baf.css",
-    "main.js": "/code-portall/static/js/main.e43d3cfd.js",
-    "static/js/787.d3453945.chunk.js": "/code-portall/static/js/787.d3453945.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/code-portall/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/code-portall/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
-    "static/media/right-image.png": "/code-portall/static/media/right-image.cae936f76efe9ddf105f.png",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/code-portall/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
-    "static/media/fontawesome-webfont.eot": "/code-portall/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/code-portall/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
-    "static/media/left-image.png": "/code-portall/static/media/left-image.74b8904eff42f22f1f1c.png",
-    "static/media/code.svg": "/code-portall/static/media/code.97ceb6992996d53b73a808c7f2de22d1.svg",
-    "index.html": "/code-portall/index.html",
-    "main.f9204baf.css.map": "/code-portall/static/css/main.f9204baf.css.map",
-    "main.e43d3cfd.js.map": "/code-portall/static/js/main.e43d3cfd.js.map",
-    "787.d3453945.chunk.js.map": "/code-portall/static/js/787.d3453945.chunk.js.map"
+    "main.css": "/code_portall/static/css/main.0535019d.css",
+    "main.js": "/code_portall/static/js/main.bca35310.js",
+    "static/js/787.d3453945.chunk.js": "/code_portall/static/js/787.d3453945.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/code_portall/static/media/fontawesome-webfont.d0ba16d89d53283e819b.svg",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/code_portall/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
+    "static/media/right-image.png": "/code_portall/static/media/right-image.cae936f76efe9ddf105f.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/code_portall/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
+    "static/media/fontawesome-webfont.eot": "/code_portall/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/code_portall/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
+    "static/media/left-image.png": "/code_portall/static/media/left-image.74b8904eff42f22f1f1c.png",
+    "static/media/code.svg": "/code_portall/static/media/code.97ceb6992996d53b73a808c7f2de22d1.svg",
+    "index.html": "/code_portall/index.html",
+    "main.0535019d.css.map": "/code_portall/static/css/main.0535019d.css.map",
+    "main.bca35310.js.map": "/code_portall/static/js/main.bca35310.js.map",
+    "787.d3453945.chunk.js.map": "/code_portall/static/js/787.d3453945.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9204baf.css",
-    "static/js/main.e43d3cfd.js"
+    "static/css/main.0535019d.css",
+    "static/js/main.bca35310.js"
   ]
 }
