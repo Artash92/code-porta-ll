@@ -58,8 +58,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Routes>
-      <Route path="https://artash92.github.io/code-portall" element={<Home/>} />
-        <Route path='*' element ={<Navigate to= '/not-found'/>} />
+          <Route path="/" element={<Home/>} />
           <Route path='/about' element={<About />} />
           <Route path='/domains' element={<Domains />} />
           <Route path='/cross_site_scripting_xss' element={<SecureWebGuard />} />
@@ -192,7 +191,8 @@ class App extends Component {
               <Route path ='react_quiz' element={<Outlet/>}>
               <Route index element= {<QuizReact />} />
               </Route>
-              <Route path = '/not-found' element = {<NotFound/>} />
+              <Route path="/not-found" element={<NotFound />} />
+              <Route path="*" element={<Navigate to="/not-found" />} />
         </Routes>
       </BrowserRouter>
     );
