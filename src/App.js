@@ -76,7 +76,6 @@ class App extends Component {
             <Route path='/reactjs' element ={<Outlet />}>
               <Route index element= {<ReactJS/>} />
             </Route>
-           <Route path ='/about' element={<About/>} />
            <Route path ='/javascript5' element={<Outlet/>}>
               <Route index element={<JavaScript5/>} />
             </Route>
