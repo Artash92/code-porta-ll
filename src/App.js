@@ -43,7 +43,7 @@ import DevOps from './pages/DevOps';
 import HRManager from './pages/HRManager';
 import Programming_tips from './pages/Programming_tips';
 import Keyboard from './pages/keyboard';
-import NotFound from './pages/NotFound';
+//import NotFound from './pages/NotFound';
 import Chrome from './pages/Chrome';
 import Quiz from './pages/Quiz';
 import HtmlCss from './pages/HtmlCss';
