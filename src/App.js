@@ -58,7 +58,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="https://artash92.github.io/code-portall" element={<Home/>} />
         <Route path='*' element ={<Navigate to= '/not-found'/>} />
           <Route path='/about' element={<About />} />
           <Route path='/domains' element={<Domains />} />
