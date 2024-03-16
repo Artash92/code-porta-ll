@@ -58,6 +58,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Routes>
+      <Route path="/" element={<Home/>} />
         <Route path='*' element ={<Navigate to= '/not-found'/>} />
         
           <Route path="/" element={<Home/>} />
