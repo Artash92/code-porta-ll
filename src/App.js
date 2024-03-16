@@ -60,8 +60,6 @@ class App extends Component {
         <Routes>
       <Route path="/" element={<Home/>} />
         <Route path='*' element ={<Navigate to= '/not-found'/>} />
-        
-          <Route path="/" element={<Home/>} />
           <Route path='/about' element={<About />} />
           <Route path='/domains' element={<Domains />} />
           <Route path='/cross_site_scripting_xss' element={<SecureWebGuard />} />
